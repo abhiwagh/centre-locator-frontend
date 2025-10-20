@@ -141,7 +141,7 @@ const NearbyCentresTabs = ({ id, lat, long }: NearbyCentresTabsProps) => {
               display: "grid",
               gridTemplateColumns: "1fr",
               gap: "16px",
-              "@media (min-width: 600px)": {
+              "@media (min-width: 900px)": {
                 gridTemplateColumns: "1fr 1fr",
               },
             }}

@@ -103,7 +103,7 @@ const CentreLocator: React.FC = () => {
             width: "100%",
             mx: "auto",
             maxWidth: "1140px",
-            px: { xs: 2, sm: 3, md: 0 },
+            px: { xs: 2, sm: 3, md: 1 },
             flexDirection: { xs: "column", sm: "row" },
             alignItems: { xs: "flex-start", sm: "center" },
           }}
@@ -222,6 +222,7 @@ const CentreLocator: React.FC = () => {
           alignItems: "center",
           flexDirection: "column",
           width: "100%",
+          px: { xs: 0, sm: 0, md: 1 },
         }}
       >
         <Box

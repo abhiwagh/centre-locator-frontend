@@ -42,7 +42,7 @@ const CentreList = ({ data }: any) => {
     };
   const headingStyles = {
     color: colorAssets.primaryBackground,
-    padding: { xs: "10px 0", sm: "30px 0" },
+    padding: { xs: "10px 0", sm: "30px 0", md: "30px 8px" },
     width: "100%",
     textAlign: "left",
     fontWeight: 400,
@@ -135,7 +135,7 @@ const CentreList = ({ data }: any) => {
                 p: 2,
               },
               "@media (min-width: 900px)": {
-                p: 0,
+                p: 1,
               },
             }}
           >
